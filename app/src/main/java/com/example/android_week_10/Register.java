@@ -30,7 +30,7 @@ public class Register extends AppCompatActivity {
         TextView email = findViewById(R.id.email);
         TextView password = findViewById(R.id.password);
         Button register = findViewById(R.id.register);
-      ;
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
